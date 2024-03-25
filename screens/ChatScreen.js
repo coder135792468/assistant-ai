@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { Button, ActivityIndicator, MD2Colors } from "react-native-paper";
 import Message from "../components/Message";
-import { getMessage } from "../utils/routes";
+import { getImage, getMessage } from "../utils/routes";
 import { prompt } from "../utils/contants";
 
 const ChatScreen = ({ route }) => {
