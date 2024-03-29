@@ -6,7 +6,20 @@ import { IconButton, MD3Colors } from "react-native-paper";
 
 function HomeScreen({ navigation }) {
   return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+    <View
+      style={{
+        flex: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "#F5FCFF",
+      }}
+    >
+      <View style={{ width: "90%" }}>
+        <Text style={{ fontWeight: 200, fontSize: 12, textAlign: "center" }}>
+          Create unique images and get personalized mentorship and guidance from
+          AI.
+        </Text>
+      </View>
       <View style={styles.card}>
         <View style={styles.cardTextCon}>
           <Icon name="user" size={30} color="#fff" />

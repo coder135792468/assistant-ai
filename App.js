@@ -13,12 +13,15 @@ function App() {
         <Stack.Screen
           name="Home"
           component={HomeScreen}
-          options={{ title: "Assistant" }}
+          options={{ title: "AI Assistant" }}
         />
 
         <Stack.Screen
           name="ChatScreen"
           component={ChatScreen}
+          options={{
+            title: "Chat",
+          }}
           // options={{
           //   headerRight: () => (
           //     <Button
